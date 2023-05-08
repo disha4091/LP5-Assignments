@@ -30,7 +30,7 @@ Terminal 1:
 
 idlj -fall ReverseModule.idl 
 
-javac * .java ReverseModule/ * .java
+javac *.java ReverseModule/ *.java
 
 orbd -ORBInitialPort 1056&
 
@@ -45,7 +45,7 @@ Assignment 3:
 
 Terminal: 
 
-javac -cp $MPJ_HOME/lib.mpj.jar a3.java
+javac -cp $MPJ_HOME/lib/mpj.jar a3.java
 
 export MPJ_HOME=/home/disha/Downloads/mpj
 
