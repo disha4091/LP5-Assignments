@@ -45,11 +45,12 @@ Assignment 3:
 
 Terminal: 
 
-javac -cp $MPJ_HOME/lib/mpj.jar a3.java
 
 export MPJ_HOME=/home/disha/Downloads/mpj
 
 export PATH=$MPJ_HOME/bin:$PATH
+
+javac -cp $MPJ_HOME/lib/mpj.jar a3.java
 
 $MPJ_HOME/bin/mpjrun.sh -np 4 a3
 
